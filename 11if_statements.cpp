@@ -1,18 +1,18 @@
 #include <iostream>
 
 int main(){
-int height;
-std::cout << "Enter your height: ";
-std::cin >> height;
+int age;
+std::cout << "Enter your age: ";
+std::cin >> age;
 
-if(height >= 200){
+if(age >= 18){
 std::cout << "You are too tall.";
 }
-else if(height >= 165){
-std::cout << "Go to the rollercoaster";
+else if(age >= 18){
+std::cout << "You are underage";
 }
 else{
-std::cout << "You are too short";
+std::cout << "You are an adult";
 }
 return 0;
 }
