@@ -6,7 +6,7 @@ int main() {
     // & address-of operator
     // * dereference operator
 
-    std::string name = "Tim";
+    std::string name = "Tommy";
     int age = 12;
     std::string freePizzas[5] = {"pizza1", "pizza2", "pizza3", "pizza4", "pizza5"};
     
@@ -19,4 +19,5 @@ int main() {
     std::cout << *pFreePizzas << '\n';
 
     return 0;
+
 }
