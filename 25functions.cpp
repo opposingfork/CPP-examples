@@ -5,8 +5,8 @@ std::cout << "Hello " << name << ". You are " << age << std::endl;
 }
 
 int main(){
-std::string name = "Fork";
-int age = 17;
+std::string name = "buddy";
+int age = 25;
 // calling the function
 greeting(name, age);
 return 0;
