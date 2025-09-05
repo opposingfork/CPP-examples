@@ -1,15 +1,15 @@
 #include <iostream>
 int main(){
-std::string students[] = {"Bob", "Harley", "Dog"};
+std::string bugs[] = {"ant", "bee", "cockroach", "wasp"};
 
 // this is bad
-std::cout << students[0] << "\n";
-std::cout << students[1] << "\n";
-std::cout << students[2] << "\n";
+std::cout << bugs[0] << "\n";
+std::cout << bugs[1] << "\n";
+std::cout << bugs[2] << "\n";
 
 // this is more efficient
-for(int i = 0; i < sizeof(students)/sizeof(std::string); i++){
-std::cout << students[i] << "\n";
+for(int i = 0; i < sizeof(bugs)/sizeof(std::string); i++){
+std::cout << bugs[i] << "\n";
 }
 return 0;
 }
