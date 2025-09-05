@@ -3,8 +3,8 @@ int main() {
     // memory address = a location in memory where data is stored
     // a memory address can accessed with & (address-of operator)
 
-    std::string name = "Fork";
-    int age  = 17;
+    std::string name = "tommy";
+    int age  = 10;
     bool student = true;
 
     std::cout << &name << '\n';
@@ -12,4 +12,5 @@ int main() {
     std::cout << &student << '\n';
 
     return 0;
+
 }
