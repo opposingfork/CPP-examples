@@ -7,12 +7,13 @@ int main()
     std::string foods[SIZE];
 
     fill(foods, foods + (SIZE/3), "pizza");
-    fill(foods + (SIZE/3), foods + (SIZE/3)*2, "hamburger");
-    fill(foods + (SIZE/3)*2, foods + SIZE, "hotdog");
+    fill(foods + (SIZE/3), foods + (SIZE/3)*2, "shawrma");
+    fill(foods + (SIZE/3)*2, foods + SIZE, "vinegar coffee");
 
     for(std::string food : foods){
         std::cout << food << '\n';
     }
 
     return 0;
+
 }
